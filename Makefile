@@ -29,5 +29,5 @@ tests.o: tests.cpp doctest.h caesar.h vigenere.h decrypt.h
 	g++ -std=c++11 -c tests.cpp
 
 clean:
-	rm -f main.o funcs.o tests.o test-ascii.o test-ascii main tests
+	rm -f main.o funcs.o tests.o test-ascii.o test-ascii main tests caesar.o vigenere.o decrypt.o funcs.o
 
