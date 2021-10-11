@@ -1,7 +1,6 @@
 #include <iostream>
-
-
-#include "funcs.h"
+#include "vigenere.h"
+using namespace std;
 
 int main()
 {
